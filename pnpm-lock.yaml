@@ -26,9 +26,6 @@ importers:
       eslint-config-prettier:
         specifier: 9.1.0
         version: 9.1.0(eslint@9.0.0)
-      eslint-plugin-promise:
-        specifier: 7.1.0
-        version: 7.1.0(eslint@9.0.0)
       eslint-plugin-unicorn:
         specifier: 55.0.0
         version: 55.0.0(eslint@9.0.0)
@@ -342,12 +339,6 @@ packages:
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
-
-  eslint-plugin-promise@7.1.0:
-    resolution: {integrity: sha512-8trNmPxdAy3W620WKDpaS65NlM5yAumod6XeC4LOb+jxlkG4IVcp68c6dXY2ev+uT4U1PtG57YDV6EGAXN0GbQ==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-    peerDependencies:
-      eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
 
   eslint-plugin-unicorn@55.0.0:
     resolution: {integrity: sha512-n3AKiVpY2/uDcGrS3+QsYDkjPfaOrNrsfQxU9nt5nitd9KuvVXrfAvgCO9DYPSfap+Gqjw9EOrXIsBp5tlHZjA==}
@@ -1356,10 +1347,6 @@ snapshots:
   escape-string-regexp@4.0.0: {}
 
   eslint-config-prettier@9.1.0(eslint@9.0.0):
-    dependencies:
-      eslint: 9.0.0
-
-  eslint-plugin-promise@7.1.0(eslint@9.0.0):
     dependencies:
       eslint: 9.0.0
 

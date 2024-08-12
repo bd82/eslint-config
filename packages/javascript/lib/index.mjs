@@ -5,7 +5,6 @@
 import js from "@eslint/js";
 import eslintPluginUnicorn from "eslint-plugin-unicorn";
 import eslintConfigPrettier from "eslint-config-prettier";
-import pluginPromise from "eslint-plugin-promise";
 
 /**
  * @type {ESLintConfig[]}
@@ -51,7 +50,6 @@ const config = [
       "unicorn/prevent-abbreviations": "off",
     },
   },
-  pluginPromise.configs["flat/recommended"],
   // prettier should be the last (Rules) config as it works by turning off other rules.
   eslintConfigPrettier,
   {
