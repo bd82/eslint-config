@@ -1,0 +1,12 @@
+{
+  "include": ["lib/**/*.mjs"],
+  "compilerOptions": {
+    "module": "NodeNext",
+    "lib": ["ES2022"],
+    "moduleResolution": "NodeNext",
+    "noEmit": true,
+    "allowJs": true,
+    "checkJs": true,
+    "skipLibCheck": true
+  }
+}

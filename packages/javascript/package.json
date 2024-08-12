@@ -1,0 +1,32 @@
+{
+  "name": "@bd82/eslint-config-javascript",
+  "version": "0.1.0",
+  "keywords": [
+    "eslintconfig",
+    "eslint"
+  ],
+  "license": "CC0-1.0",
+  "description": "",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./lib/index.mjs"
+    }
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-unicorn": "55.0.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "9.6.0"
+  },
+  "scripts": {
+    "type-check": "tsc"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
