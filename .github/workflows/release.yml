@@ -28,7 +28,15 @@ jobs:
       - name: Install Dependencies
         run: pnpm i
 
+      - name: npm auth setup
+        run: |
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
+          pnpm whoami
+
       - name: Create Release Pull Request
         uses: changesets/action@v1
+        with:
+          publish: pnpm run ci:release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
