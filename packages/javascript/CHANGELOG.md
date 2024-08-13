@@ -1,5 +1,11 @@
 # @bidi82/eslint-config-javascript
 
+## 0.2.2
+
+### Patch Changes
+
+- 51418e3: another dummy change to test changesets
+
 ## 0.2.1
 
 ### Patch Changes
