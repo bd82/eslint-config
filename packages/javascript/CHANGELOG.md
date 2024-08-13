@@ -1,5 +1,11 @@
 # @bidi82/eslint-config-javascript
 
+## 0.2.1
+
+### Patch Changes
+
+- b5dec65: dummy change to test changesets
+
 ## 0.2.0
 
 ### Minor Changes
