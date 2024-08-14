@@ -6,11 +6,22 @@
   "scripts": {
     "ci:release": "pnpm run build && pnpm changeset publish",
     "build": "echo \"No build step yet\"",
-    "format:fix": "prettier --write \"**/*.@(ts|js|mjs|json|md|yml)\""
+    "format:fix": "prettier --write \"**/*.@(ts|js|mjs|json|md|yml)\"",
+    "prepare": "husky"
   },
   "devDependencies": {
     "typescript": "5.5.4",
     "prettier": "3.3.3",
-    "@changesets/cli": "2.27.7"
+    "@changesets/cli": "2.27.7",
+    "lint-staged": "15.2.9",
+    "husky": "9.1.4"
+  },
+  "prettier": {
+    "endOfLine": "lf"
+  },
+  "lint-staged": {
+    "*.{ts,js,mjs,cjs,json,md,yml}": [
+      "prettier --write"
+    ]
   }
 }
