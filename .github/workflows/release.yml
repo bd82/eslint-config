@@ -29,9 +29,10 @@ jobs:
         run: pnpm i
 
       - name: npm auth setup
+
         run: |
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
-          git update-index --assume-unchanged ".npmrc"
+        #  git update-index --assume-unchanged ".npmrc"
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 

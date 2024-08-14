@@ -4,7 +4,7 @@
   "private": true,
   "packageManager": "pnpm@9.7.0",
   "scripts": {
-    "ci:release": "pnpm run build && pnpm publish -r",
+    "ci:release": "pnpm run build && pnpm changeset publish",
     "build": "echo \"No build step yet\"",
     "format:fix": "prettier --write \"**/*.@(ts|js|mjs|json|md|yml)\""
   },
