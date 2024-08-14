@@ -1,5 +1,11 @@
 # @bidi82/eslint-config-javascript
 
+## 0.2.4
+
+### Patch Changes
+
+- a380ee0: docs: add repo prop in pkg.json
+
 ## 0.2.3
 
 ### Patch Changes
