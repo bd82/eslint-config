@@ -5,12 +5,14 @@ import js from "@eslint/js";
 import eslintPluginUnicorn from "eslint-plugin-unicorn";
 import eslintConfigPrettier from "eslint-config-prettier";
 import { unicornDisabledRules } from "./unicorn-disabled-rules.mjs";
+import { importConfig } from "./plugin-import-wrapper.mjs";
 
 /**
  * @type {ESLintConfig[]}
  */
 const config = [
   js.configs.recommended,
+  importConfig,
   eslintPluginUnicorn.configs["flat/recommended"],
   {
     rules: unicornDisabledRules,
