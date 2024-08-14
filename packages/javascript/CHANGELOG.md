@@ -1,5 +1,11 @@
 # @bidi82/eslint-config-javascript
 
+## 0.2.3
+
+### Patch Changes
+
+- df2658c: another attempt to automate publishing
+
 ## 0.2.2
 
 ### Patch Changes
