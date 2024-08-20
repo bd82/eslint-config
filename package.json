@@ -5,8 +5,9 @@
   "packageManager": "pnpm@9.7.0",
   "scripts": {
     "ci:release": "pnpm run build && pnpm changeset publish",
-    "build": "echo \"No build step yet\"",
-    "format:fix": "prettier --write \"**/*.@(ts|js|mjs|json|md|yml)\"",
+    "build": "pnpm run type-check && pnpm run format:validate",
+    "format:validate": "prettier --check \"**/*.@(mjs|json|md|yml)\"",
+    "format:fix": "prettier --write \"**/*.@(mjs|json|md|yml)\"",
     "prepare": "husky"
   },
   "devDependencies": {
