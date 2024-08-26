@@ -2,21 +2,33 @@
  * @typedef {import("eslint").Linter.Config} ESLintConfig
  * @typedef {import("@typescript-eslint/utils").TSESLint.FlatConfig.Config} TsFlatConfig
  */
-
-import jsConfigs from "@bidi82/eslint-config-javascript";
+import {
+  jsRulesConfig,
+  linterOptionsConfig,
+  prettierConfig,
+} from "@bidi82/eslint-config-javascript";
 import tseslint from "typescript-eslint";
+
+export { withTypeChecks, withoutTypeChecks };
 
 /**
  * @type {(ESLintConfig | TsFlatConfig)[]}
  */
-const withoutTypeChecks = [...jsConfigs, ...tseslint.configs.recommended];
-const withTypeChecks = [
-  ...jsConfigs,
+const withoutTypeChecks = [
+  ...jsRulesConfig,
   // https://typescript-eslint.io/getting-started/typed-linting
-  ...tseslint.configs.recommendedTypeChecked,
+  ...tseslint.configs.recommended,
+  prettierConfig,
+  linterOptionsConfig,
 ];
 
-export default {
-  noTypeChecks: withoutTypeChecks,
-  typeChecks: withTypeChecks,
-};
+/**
+ * @type {(ESLintConfig | TsFlatConfig)[]}
+ */
+const withTypeChecks = [
+  ...jsRulesConfig,
+  // https://typescript-eslint.io/getting-started/typed-linting
+  ...tseslint.configs.recommendedTypeChecked,
+  prettierConfig,
+  linterOptionsConfig,
+];
