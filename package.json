@@ -4,6 +4,7 @@
   "private": true,
   "packageManager": "pnpm@9.7.0",
   "scripts": {
+    "ci:version": "pnpm changeset version && pnpm i --lockfile-only",
     "ci:release": "pnpm run build && pnpm changeset publish",
     "build": "pnpm run type-check && pnpm run format:validate",
     "format:validate": "prettier --check \"**/*.@(mjs|json|md|yml)\"",
