@@ -6,7 +6,7 @@
   "scripts": {
     "ci:version": "pnpm changeset version && pnpm i --lockfile-only",
     "ci:release": "pnpm run build && pnpm changeset publish",
-    "build": "pnpm run type-check && pnpm run format:validate",
+    "build": "pnpm run -r type-check && pnpm run format:validate",
     "format:validate": "prettier --check \"**/*.@(mjs|json|md|yml)\"",
     "format:fix": "prettier --write \"**/*.@(mjs|json|md|yml)\"",
     "prepare": "husky"
