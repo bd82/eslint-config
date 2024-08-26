@@ -1,5 +1,13 @@
 # @bidi82/eslint-config-typescript
 
+## 0.2.2
+
+### Patch Changes
+
+- c61979d: dummy change to force release
+- Updated dependencies [c61979d]
+  - @bidi82/eslint-config-javascript@0.3.3
+
 ## 0.2.1
 
 ### Patch Changes
