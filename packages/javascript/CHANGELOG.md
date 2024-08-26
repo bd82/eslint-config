@@ -1,5 +1,11 @@
 # @bidi82/eslint-config-javascript
 
+## 0.3.3
+
+### Patch Changes
+
+- c61979d: dummy change to force release
+
 ## 0.3.2
 
 ### Patch Changes
