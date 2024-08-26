@@ -1,5 +1,11 @@
 # @bidi82/eslint-config-javascript
 
+## 0.3.2
+
+### Patch Changes
+
+- 1134e53: Patch version to force release
+
 ## 0.3.1
 
 ### Patch Changes

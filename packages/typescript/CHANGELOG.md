@@ -1,5 +1,13 @@
 # @bidi82/eslint-config-typescript
 
+## 0.2.1
+
+### Patch Changes
+
+- 1134e53: Patch version to force release
+- Updated dependencies [1134e53]
+  - @bidi82/eslint-config-javascript@0.3.2
+
 ## 0.2.0
 
 ### Minor Changes
