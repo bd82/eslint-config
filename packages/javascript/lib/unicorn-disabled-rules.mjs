@@ -1,10 +1,9 @@
 export { unicornDisabledRules };
 
 const unicornDisabledRules = {
-  // TODO: change this depending on project's module choice?
+  // helper functions are often used in tests causing many false positives
+  "unicorn/consistent-function-scoping": "off",
   "unicorn/prefer-module": "off",
-  // TODO: are there other rules that should be turned off when using commonJS?
-  // TODO: do we need a factory to support this?
 
   // Formatting rules, should be handled by prettier
   "unicorn/empty-brace-spaces": "off",
@@ -16,6 +15,8 @@ const unicornDisabledRules = {
   "unicorn/prefer-array-some": "off",
   // false positives (e.g.: when using adm-zip `readAsText` method)
   "unicorn/prefer-blob-reading-methods": "off",
+  // Style preference
+  "unicorn/prefer-ternary": "off",
   // being explicit is arguably better.
   "unicorn/no-useless-undefined": "off",
 

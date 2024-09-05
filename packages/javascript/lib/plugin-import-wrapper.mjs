@@ -16,6 +16,19 @@ const importConfig = {
     // Only interested in the ordering rule
     // It seems (most?) other "recommended" rules in plugin-import overlap with TypeScript checks
     // And @bidi82/eslint-config-javascript is intended to be used with TSC (type checking JS code...).
-    "import/order": "error",
+    "import/order": [
+      "error",
+      {
+        // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md#groups-array
+        groups: [
+          "type", // Style change from default: type imports should always be first in their own group.
+          "builtin",
+          "external",
+          "parent",
+          "sibling",
+          "index",
+        ],
+      },
+    ],
   },
 };
