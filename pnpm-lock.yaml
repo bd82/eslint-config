@@ -46,7 +46,7 @@ importers:
   packages/typescript:
     dependencies:
       '@bidi82/eslint-config-javascript':
-        specifier: workspace:0.3.3
+        specifier: workspace:0.4.0
         version: link:../javascript
       eslint:
         specifier: ^9.0.0

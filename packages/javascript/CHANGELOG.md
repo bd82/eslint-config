@@ -1,5 +1,12 @@
 # @bidi82/eslint-config-javascript
 
+## 0.4.0
+
+### Minor Changes
+
+- bdaae3f: unicorn/prefer-ternary disabled as it is mostly a style choice
+- bdaae3f: import/order types imports should be first and in their own group
+
 ## 0.3.3
 
 ### Patch Changes
