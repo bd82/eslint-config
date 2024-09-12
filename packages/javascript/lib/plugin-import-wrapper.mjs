@@ -1,8 +1,7 @@
 /**
- * eslint flat config wrapper for eslint-import-plugin
- * Should be removed once eslint-import-plugin supports eslint flat config natively
- *
- * Based on: https://github.com/import-js/eslint-plugin-import/issues/2964#issuecomment-2119524178
+ * eslint flat config wrapper to configure only a single rule from eslint-plugin-import
+ * If we import the recommended config from eslint-plugin-import, it will include too many rules
+ * Which we are not interested in...
  */
 import eslintPluginImport from "eslint-plugin-import";
 
