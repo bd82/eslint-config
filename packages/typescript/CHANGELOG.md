@@ -1,5 +1,14 @@
 # @bidi82/eslint-config-typescript
 
+## 0.3.1
+
+### Patch Changes
+
+- 93f38c2: bump plugin-import to 2.30.0
+- 4340c76: disable @typescript-eslint/no-unused-expressions for spec files
+- Updated dependencies [93f38c2]
+  - @bidi82/eslint-config-javascript@0.4.1
+
 ## 0.3.0
 
 ### Minor Changes
