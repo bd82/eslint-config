@@ -1,5 +1,11 @@
 # @bidi82/eslint-config-javascript
 
+## 0.4.1
+
+### Patch Changes
+
+- 93f38c2: bump plugin-import to 2.30.0
+
 ## 0.4.0
 
 ### Minor Changes
