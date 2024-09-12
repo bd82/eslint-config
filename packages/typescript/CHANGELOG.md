@@ -1,5 +1,11 @@
 # @bidi82/eslint-config-typescript
 
+## 0.3.2
+
+### Patch Changes
+
+- d7b7584: bump typescript-eslint to 8.5.0
+
 ## 0.3.1
 
 ### Patch Changes
