@@ -8,6 +8,7 @@ import {
   prettierConfig,
 } from "@bidi82/eslint-config-javascript";
 import tseslint from "typescript-eslint";
+import { testFilesRules } from "./test-files-rules.mjs";
 
 export { withTypeChecks, withoutTypeChecks };
 
@@ -18,6 +19,7 @@ const withoutTypeChecks = [
   ...jsRulesConfig,
   // https://typescript-eslint.io/getting-started/typed-linting
   ...tseslint.configs.recommended,
+  testFilesRules,
   prettierConfig,
   linterOptionsConfig,
 ];
@@ -29,6 +31,7 @@ const withTypeChecks = [
   ...jsRulesConfig,
   // https://typescript-eslint.io/getting-started/typed-linting
   ...tseslint.configs.recommendedTypeChecked,
+  testFilesRules,
   prettierConfig,
   linterOptionsConfig,
 ];
