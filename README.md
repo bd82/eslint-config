@@ -1,10 +1,10 @@
-# eslint-config
+# @bidi82/eslint-config-\*
 
 bd82's Shareable ESLint configurations.
 
-- @bidi82/eslint-config-javascript - [![npm version](https://badge.fury.io/js/@bidi82%2Feslint-config-javascript.svg)](https://badge.fury.io/js/@bidi82%2Feslint-config-javascript)
+- [@bidi82/eslint-config-javascript](./packages/javascript) - [![npm version](https://badge.fury.io/js/@bidi82%2Feslint-config-javascript.svg)](https://badge.fury.io/js/@bidi82%2Feslint-config-javascript)
 
-- @bidi82/eslint-config-typescript - [![npm version](https://badge.fury.io/js/@bidi82%2Feslint-config-typescript.svg)](https://badge.fury.io/js/@bidi82%2Feslint-config-typescript)
+- [@bidi82/eslint-config-typescript](./packages/typescript) - [![npm version](https://badge.fury.io/js/@bidi82%2Feslint-config-typescript.svg)](https://badge.fury.io/js/@bidi82%2Feslint-config-typescript)
 
 ## LICENSE
 
