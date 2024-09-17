@@ -1,5 +1,11 @@
 # @bidi82/eslint-config-javascript
 
+## 0.4.2
+
+### Patch Changes
+
+- a4a537c: README.md with basic instructions added
+
 ## 0.4.1
 
 ### Patch Changes
