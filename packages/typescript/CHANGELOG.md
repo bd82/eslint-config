@@ -1,5 +1,13 @@
 # @bidi82/eslint-config-typescript
 
+## 0.3.3
+
+### Patch Changes
+
+- a4a537c: README.md with basic instructions added
+- Updated dependencies [a4a537c]
+  - @bidi82/eslint-config-javascript@0.4.2
+
 ## 0.3.2
 
 ### Patch Changes

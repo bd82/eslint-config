@@ -1,6 +1,6 @@
 {
   "name": "@bidi82/eslint-config-typescript",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "keywords": [
     "eslintconfig",
     "eslint"
@@ -28,7 +28,7 @@
     "typescript": ">=4.8.4 <5.6.0"
   },
   "dependencies": {
-    "@bidi82/eslint-config-javascript": "workspace:0.4.1",
+    "@bidi82/eslint-config-javascript": "workspace:0.4.2",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.30.0",
     "typescript-eslint": "8.5.0"
