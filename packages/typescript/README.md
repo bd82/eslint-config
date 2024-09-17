@@ -1,4 +1,4 @@
-# @bidi82/eslint-config-javascript
+# @bidi82/eslint-config-typescript
 
 bd82's Shareable ESLint configurations for TypeScript.
 
