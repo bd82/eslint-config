@@ -12,7 +12,7 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "typescript": "5.5.4",
+    "typescript": "5.6.3",
     "prettier": "3.3.3",
     "@changesets/cli": "2.27.7",
     "lint-staged": "15.2.9",
