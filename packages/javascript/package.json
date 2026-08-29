@@ -30,7 +30,7 @@
     "eslint-plugin-import": "2.30.0"
   },
   "devDependencies": {
-    "@types/eslint": "9.6.0"
+    "@types/eslint": "9.6.1"
   },
   "publishConfig": {
     "access": "public"
